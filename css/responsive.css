@@ -1,0 +1,324 @@
+@media (max-width: 1200px){
+    .vision_text{
+        width: 90%;
+        padding: 40px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #mobdemonavsect .menu>label {
+        background: black;
+        display: block;
+        padding: 15px 20px;
+        text-align: right;
+    }
+
+    #mobdemonavsect .menu a {
+        padding: 15px 20px;
+    }
+
+    #mobdemonavsect .menu>ul i {
+        float: right;
+        padding: 5px 10px;
+        background: #fb6161;
+    }
+
+    #mobdemonavsect .menu-dropdown a {
+        background: #024d74;
+    }
+
+    #mobdemonavsect .menu-hasflyout>ul a {
+        background: #023d5b;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    #mobdemonavsect .menu {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    #mobdemonavsect .menu>ul,
+    #mobdemonavsect .menu-righticon {
+        display: none;
+    }
+
+    #mobdemonavsect input[type="checkbox"]:checked+ul {
+        display: block;
+        animation: grow 0.5s ease-in-out;
+        background: #202020;
+    }
+    .whowearesect{
+        flex-direction: column;
+    }
+    .who_left, .who_right{
+        width: 100%;
+    }
+    .who_right{
+        padding-top: 50px;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .who_title{
+        padding: 0px 20px;
+        font-size: 30px;
+    }.who_text{
+        max-width: none;
+        padding: 10px 20px;
+    }
+    .architecture{
+        flex-direction: column;
+    }
+    .archi_left{
+        width: 100%;
+    }
+    .archi_title{
+        padding-right: 0;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .archi_text {
+        position: relative;
+        width: 100%;
+        height: auto;
+        top: 0;
+        right: 0;
+    }
+    .archi_right{
+        width: 100%;
+    }
+    .interiors{
+        flex-direction: column-reverse;
+        padding-top: 0;
+    }
+    .inter_left{
+        width: 100%;
+    }
+    .inter_right{
+        width: 100%;
+        text-align: center;
+        padding: 0 30px;
+    }
+    .inter_text{
+        max-width: none;
+        padding-bottom: 50px;
+    }
+    .planning{
+        padding-left: 0;
+    }
+    .clients{
+        padding: 40px 0;
+        flex-direction: column;
+    }
+    .clients_left{
+        max-width: none;
+        width: 100%;
+        align-items: center;
+        padding: 0 24px;
+    }
+    .clients_title{
+        padding-top: 0;
+    }
+    .clients_subtext{
+        padding-bottom: 40px;
+    }
+    .clients_right{
+        justify-content: center;
+    }
+    .vision_top{
+        margin-bottom: 0;
+    }
+    .vision_title{
+        padding-left: 40px;
+        width: 100%;
+    }
+    .vision_text{
+        width: 100%;
+    }
+    .award{
+        margin-left: 0;
+        width: 50%;
+        padding-top: 76px;
+    }
+    .media_title{
+        padding-left: 30px;
+        padding-top: 0;
+    }
+    .media_text{
+        width: 100%;
+        padding: 37px 30px;
+    }
+    .media_text div{
+        padding-bottom: 20px;
+    }
+    .people_title{
+        padding-top: 40px;
+        padding-left: 30px;
+    }
+    .people_text{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .social_en{
+        padding: 50px 0;
+    }
+    .social_envir{
+        flex-direction: column;
+    }
+    .social_title{
+        padding: 24px;
+    }
+    .social_left{
+        margin-right: 0;
+    }
+    .social_title{
+        padding-top: 0;
+    }
+    .social_text{
+        padding: 24px;
+        height: auto;
+        width: 100%;
+    }
+    .social_right{
+        width: 100%;
+    }
+    .left_video{
+        margin-right: 0;
+    }
+    .dream_right{
+        padding-top: 0;
+    }
+    .right_why{
+        padding: 0 24px;
+    }
+    .dream_why{
+        padding: 0;
+    }
+}
+
+/* large styles */
+@media screen and (min-width: 1025px) {
+
+    #mobdemonavsect .menu>label,
+    #mobdemonavsect input[type="checkbox"] {
+        display: none;
+    }
+
+    #mobdemonavsect .menu a {
+        padding: 15px 20px;
+    }
+
+    #mobdemonavsect .menu>ul>li {
+        display: inline-block;
+    }
+
+    #mobdemonavsect .menu-hasdropdown {
+        position: relative;
+    }
+
+    #mobdemonavsect .menu-hasdropdown:hover>ul {
+        display: block;
+        animation: grow 0.5s ease-in-out;
+    }
+
+    #mobdemonavsect .menu-hasdropdown>ul {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #035e8d;
+    }
+
+    #mobdemonavsect .menu-hasflyout>ul {
+        left: 100%;
+        top: 0;
+    }
+
+    #mobdemonavsect .menu-hasflyout .menu-downicon {
+        display: none;
+    }
+}
+
+@media (min-width: 768px){
+    .map-container .mappoint:before {
+        width: 10px;
+        height: 10px;
+        top: 2px;
+    }
+}
+
+@media (max-width: 768px){
+    .dreamhead{
+        font-size: 40px;
+    }
+    .video {
+        display: flex;
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+        height: 100%;
+    }
+    #bannersect #demo1 .carousel-indicators button {
+        width: 10px;
+        height: 0;
+    }
+    .profilehead{
+        padding: 50px 0;
+    }
+    .archi_text{
+        padding: 30px;
+    }
+    .planning{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .clients_right{
+        flex-direction: column;
+        align-items: center;
+    }
+    .vision_title{
+        padding-left: 24px;
+    }
+    .vision_text{
+        font-size: 24px;
+        padding: 24px;
+    }
+    .media_award{
+        padding-top: 40px;
+        flex-direction: column;
+    }
+    .media_title{
+        padding: 10px 24px;
+        font-size: 40px;
+    }
+    .media_text div{
+        max-width: none;
+    }
+    .award{
+        width: 100%;
+        padding-top: 0;
+    }
+    .dream{
+        flex-direction: column;
+    }
+    .left_phone{
+        padding-left: 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
