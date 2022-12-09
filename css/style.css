@@ -139,14 +139,17 @@ img {
 #bannersect .carousel-item img {
     /* height: 85vh; */
     filter: brightness(0.99);
-
 }
-
 
 /* sociallist */
 .listsocial {
     list-style: none;
     line-height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 14px;
+    align-items: center;
 }
 
 .posrel, .posrelttt{
